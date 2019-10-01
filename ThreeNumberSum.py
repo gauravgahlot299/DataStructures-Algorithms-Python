@@ -2,7 +2,9 @@ a = [12, 3, 1, 2, -6, 5, -8, 6, -2, -1]
 b = 3
 result = []
 a.sort()
-for idx, i in enumerate(a[:-3]):
+print(a)
+print(a[:-2])
+for idx, i in enumerate(a[:-2]):
     sumToFind = b - i
     left = idx + 1
     right = len(a) - 1

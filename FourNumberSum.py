@@ -3,7 +3,7 @@ b = 18
 result = []
 a.sort()
 for idx, i in enumerate(a[:-3]):
-    c = a[idx + 1:];
+    c = a[idx + 1:]
     for secondary_idx, j in enumerate(c[:-2]):
         sumToFind = b - (i + j)
         left = secondary_idx + 1
